@@ -1,5 +1,4 @@
 import java.sql.*;
-
 public class CreateTable {
     public static void createTable(String DB_URL) {
         try (Connection connection = DriverManager.getConnection(DB_URL);

@@ -76,7 +76,7 @@ public class WeatherResponse {
 // стираем данные, чтобы не плодить строки в БД:
         Connection connection = DriverManager.getConnection(DB_URL);
         Statement statement = connection.createStatement();
-        statement.executeQuery("DELETE FROM weather");
+        statement.executeQuery("DELETE FROM weather"); // вроде стирает...
     }
 }
 
