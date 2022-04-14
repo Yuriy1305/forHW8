@@ -53,6 +53,7 @@ import javax.json.JsonReader;
                 }
             } catch (Exception ex) {
                 System.out.println("Ошибка2: " + ex.getMessage());
+// ошибка после стирания данных в таблице БВ
             }
         }
     }
